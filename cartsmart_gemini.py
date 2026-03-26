@@ -62,7 +62,7 @@ def search_prices(items, location):
     
     # Updated to the stable 2026 production model name
     model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash-001",
+        model_name="gemini-2.0-flash",
         tools=[{"google_search_retrieval": {}}],
     )
     
